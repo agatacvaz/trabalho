@@ -21,3 +21,6 @@ if jogada_AI == movimento_geral:
 elif JOGADA_USUARIO == movimento_geral:
     print('\nUsuario acertou')
     print('AI errou')
+
+
+.

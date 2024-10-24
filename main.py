@@ -7,7 +7,7 @@ movimento_geral = choice(movimentos)
 JOGADA_USUARIO = str(input('Escolha seu Movimento (cara ou coroa): '))
 while JOGADA_USUARIO not in movimentos:
     JOGADA_USUARIO = str(input('Escolha seu Movimento (cara ou coroa): '))
-JOGADA_USUARIO = JOGADA_USUARIO.lower()
+    JOGADA_USUARIO = JOGADA_USUARIO.lower()
 movimentos.remove(JOGADA_USUARIO)
 jogada_AI = choice(movimentos)
 
